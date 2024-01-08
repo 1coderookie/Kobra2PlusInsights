@@ -6,8 +6,8 @@ It comes pre-assembled, you only have to mount a few parts like the 'upstanding'
 
 See [Anycubic's support page](https://www.anycubic.com/pages/firmware-software) of the Kobra 2 series to find manuals, firmware, video tutorials and more or use the direct links in the following.  
 
-- [Quick Start Guide](https://drive.google.com/file/d/1W63_4aYIETkF4itp7T5blioazcZqx0bY/view)
-- [User manual v1.2](https://drive.google.com/file/d/1FQqmJ4QByD2u3dPKmaZOCjRyONrfPE2q/view)
+- [Quick Start Guide](https://drive.google.com/file/d/1j56ZF9mZ1inqn_2VqiW4NKrMgp8Py3ND/view)
+- [User manual v1.3](https://drive.google.com/file/d/1y4ia1O4PbxUcCqT6r8waSTeizWyOYlr6/view)
 
 
 
