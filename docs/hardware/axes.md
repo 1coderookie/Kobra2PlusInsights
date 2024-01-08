@@ -13,7 +13,7 @@
 | **X-Axis Motor**: 42x34 Nema17, 1.8°, 200 steps, 5mm shaft with 20(??) teeth pulley (5mm bore) attached (for 6mm wide belt) (--> need to check specs again!) |
 | **Y-Axis Motor**: 42x48 Nema17, 1.8°, 200 steps, 5mm shaft with 16 teeth pulley (5mm bore, 11mm teeth length) attached (for 8mm wide belt) (--> need to check specs again!) |
 | **Z-Axis Lead Screws**: T8x8 (8mm diameter, 8mm lead, 2mm pitch, 4 starts), 350mm length, 10mm and ~23mm unthreaded 5mm OD shaft, belt-driven dual z  |
-| **Z-Axis Timing Belt**: GT-2, 6mm width, closed loop, length 600mm |
+| **Z-Axis Timing Belt**: GT-2, 6mm width, closed loop, length ??mm |
 | **Z-Axis Lead Screw Pulleys**: 20(??) teeth (5mm bore) (for 6mm wide belt) (--> need to check specs again!) |
 | **Z-Axis Anti-Backlash Nut**: POM, spring loaded, 8mm inner diameter, 20mm distance between mounting screws (18mm will fit as well due to elongated holes at the bracket!) |
 | **Z-Axis V-Slot Wheels**: POM, ~24x10.2mm with 6mm width at the tip of the "V", 625 type ball bearing with 5mm inner diameter |
@@ -755,8 +755,7 @@ The rear wheel on the left side of the bed gantry triggers the switch when moved
 
 ## Z-Axis
 The z-axis is driven by two lead screws which are connected to each other with a timingbelt at the very top.  
-One lead screw is attached and driven by the z-axis motor, the other one is then driven by the timingbelt.  
-Therefore this system is called a dual z-axis, timingbelt driven system.   
+Both lead screws are attached and driven by z-axis motors.   
 The following picture shows the upper part where you can see the the top bearing blocks both lead screws rest in, the pulleys and the timing belt which connects both lead screws.  
 
 ![Timing belt](../assets/images/axes_K2Pro_timing-belt_web.jpg)
@@ -764,8 +763,7 @@ The following picture shows the upper part where you can see the the top bearing
 The lead screws have 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and has a length of 350mm.  
 At the bottom part of the lead screw there's a 10mm long unthreaded part and at the top this part is 20mm long, the outer diameter of these shafts is 5mm.  
 
-The rod which is directly driven by the motor is mounted to the 5mm shaft of the motor by a rigid coupler at the bottom.  
-The rod which is driven by the belt then is mounted to a bearing block at the bottom which holds it in place.  
+The rods are mounted to the 5mm shaft of the motor by a rigid coupler at the bottom.   
 Both top ends of the rods are held in place by a bearing block at the top. At this end, right underneath the bearing block, a pulley is attached to both screws, which are then connected by a closed loop belt.  
 All these bearings where the lead screws sit in, the pulleys as well as the coupler to the motor are 5mm in diameter to take up the unthreaded part of the rods.
 
@@ -831,15 +829,14 @@ The following picture shows the unthreaded part at the bottom which is 10mm long
 ---
 
 ### Timing Belt  
-The two lead screws are connected by a closed loop GT-2 timing belt (6mm width, ??mm length).  
-This means, that the lead screw which is driven by the motor drives the second lead screw by the timing belt.  
+The two lead screws are connected by a closed loop GT-2 timing belt (6mm width, ??mm length).    
 
 ![Timing belt](../assets/images/axes_K2Pro_timing-belt_web.jpg)
 
 !!! warning "Sloppy Timing Belt"
 
     My machine came with an absolutely sloppy belt, and actually every other Kobra 2 model which uses this timing belt solution that I've seen seems to have the same problem.  
-    The following picture shows that sloppy state of the timing belt - I didn't apply *any* further force with that flimsy cotton swab to it than pushing it slightly to the front!  
+    The following picture shows that sloppy state of the timing belt at the Kobra 2 Pro - I didn't apply *any* further force with that flimsy cotton swab to it than pushing it slightly to the front!  
     ![Loose timing belt](../assets/images/axes_K2Pro_timing-belt_loose1_web.jpg)  
     Please see the violet expandable textbox in the next section for some instructions how to tension the belt.  
 
@@ -891,21 +888,6 @@ You can either get yourself one of those aluminum plates or print yourself an ac
 (add link to models)
 
 I'd suggest to add a teethed pulley to the inner side of the belt. Of course you can also use a pulley with no teeth and place it on the outer side where the belt doesn't have teeth, but in that case the belt will be bent against it's usual bending direction, which *might* affect the lifespan of it negatively.  
-
-
----
-
-#### MOD: Z-Axis Driven By Two Motors
-As this machine uses the same mainboard like the Kobra 2 Max/Plus, there is one free connector at the mainboard for connecting a second z-axis motor.  
-
-![Free connector for 2nd z motor](../assets/images/mobo_2nd-z-connector_web.jpg)  
-
-Theoretically speaking, you *should* be able to get rid of the belt system and drive the second lead screw with an own motor instead by simply connecting it.  
-Mind that both motors will still be driven by the same stepper driver though, so you won't be able to use the advantages of two independent stepper drivers/motors anyway.  
-
-However, I personally didn't do that and most likely I won't as there aren't any advantages (imho) to the timingbelt driven system.  
-As a matter of fact, you'll actually have disadvantages: additional load is put onto the stepper driver and the x-gantry could come out of alignment when accidentally pushing one side down. At a timingbelt driven system this isn't a problem as both screws are connected to each other and therefore both screws will turn if you accidentally push down one side of the x-gantry.  
-But this is just my personal opinion, so if you added a second z-motor, please reach out via email (see footer) with a picture so that other users can see your solution.  
 
 ---
 
