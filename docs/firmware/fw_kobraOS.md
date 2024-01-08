@@ -48,7 +48,7 @@ I won't share any of the files, but I'll quote the content of the two config fil
 
 ??? info "Files Of The Kobra 2 Pro & Max"  
 
-    Just in case you own a Kobra 2 Plus or Max, you can find the content of the belonging files quoted in expandable textboxes below.  
+    Just in case you own a Kobra 2 Pro or Max, you can find the content of the belonging files quoted in expandable textboxes below.  
     Besides that, if you own a Kobra 2 Pro, check out my comprehensive [Kobra2Pro Insights](https://1coderookie.github.io/Kobra2ProInsights/) infosite instead.     
 
 
