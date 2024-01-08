@@ -4,11 +4,11 @@
 
 | Specifications |
 |:---------------|
-| **Bedplate**: 230x230mm, 3mm thick aluminum plate with PCB heating coil |
-| **Magnetic Foil**: 230x230mm |
-| **PEI Plate**: 230x230mm, spring steel, textured on one side |
+| **Bedplate**: 330x330mm, 3mm thick aluminum plate with PCB heating coil |
+| **Magnetic Foil**: 330x330x1.4mm |
+| **PEI Plate**: 330x330x0.45mm, spring steel, textured on one side |
 | **Thermistor**: 24V, 100k NTC "ATC Semitec 104GT-2" type, AWG22 wire, two pinned JST XH 2.54 connector |
-| **PCB Heating Coil**: 24V, ~180W, ~3.2Ohm resistance, AWG14 wire |
+| **PCB Heating Coil**: 24V, ~300W, ~1.85Ohm resistance, AWG14 wire |
 | **Bedmount**: 7x14mm rigid spacers/bushings, 4x22mm countersunk head screws |
 | **Silicone Block**: 12x13mm, spring loaded |
 | **Tool height gauge sensor (z-offset)**: 10mm diameter (round), spring loaded |
@@ -25,13 +25,12 @@ The following pictures show the bedplate (without the PEI plate) from the top an
 |:----------------:|:------------------:|
 | ![Bedplate top](../assets/images/bed_K2Pro_bedplate-labeled_web.jpg) | ![Bedplate underside](../assets/images/bed_K2Pro_bedplate-underside_web.jpg) |
 
-The build volume is 220x220mm.  
-Anycubic states in the official specs that the *size* is 220x220mm as well - which is definitely wrong and misleading though, as the *physical* dimension of the bed is 230x230mm.  
+The build volume is 320x320mm.  
+Anycubic states in the official specs that the *size* is 320x320mm as well - which is definitely wrong and misleading though, as the *physical* dimension of the bed is 330x330mm.  
 
 !!! warning "Attention: Bed Size"  
 
-    If you're looking for a bedplate, a magnetic foil or just a PEI plate from a third party company, you need to get yourself a *230x230mm* plate, otherwise it would be too small!  
-    As it seems that most parts out there are either 220x220mm or 235x235mm, get yourself the 235x235mm version then. There is about 4mm space between the z-axis aluminum frames and the original bedplate, so if you pay attention to position e.g. the bigger PEI plate from the aftermarket correctly, then it'll fit.     
+    If you're looking for a bedplate, a magnetic foil or just a PEI plate from a third party company, you need to get yourself a *330x330mm* plate, otherwise it would be too small!       
 
 The temperature of the bed should reach about ≤230°F/110°C maximum and therefore it's possible to successfully print e.g. ABS, PETG and TPU (by using a housing though) besides PLA.  
 
@@ -44,8 +43,10 @@ In the following I'll go into the details of each part of the whole bed construc
 
 ## Bedplate
 
-The bedplate itself is a 230x230mm aluminum plate of 3mm thickness.  
-On the top surface there's a [magnetic foil](#magnetic-foil) glued onto it which then holds the [PEI plate](#pei-plate) in place.  
+The bedplate itself is a 330x330mm aluminum plate of 3mm thickness.  
+On the top surface there's a [magnetic foil](#magnetic-foil) glued onto it which then holds the [PEI plate](#pei-plate) in place. 
+ 
+On the underside there's insulation material being glued on which is about 2mm thick.    
 Next to the wiring at the left rear side of the bedplate is a sensor for measuring the z-offset and a silicone block for cleaning the nozzle.  
 
 ![Bedplate top](../assets/images/bed_K2Pro_bedplate-labeled_web.jpg)  
@@ -95,7 +96,7 @@ The thermistor is a 100k NTC "ATC Semitec 104GT-2" type which is soldered onto t
 
     To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning for the bed. You can find information about how to do that in the section ["PID Tuning"](../calibration.md#pid-tuning). 
 
----
+<!---
 
 ### MOD: Insulating The Bedplate 
 What I personally can highly recommend is to insulate the underside of the bed.  
@@ -145,6 +146,8 @@ However, I have to mention that I didn't print with higher bed temperatures than
     - If you used adjustable spacers, tram the bed again.  
     - When switching on the printer, make sure you proceed with executing an ABL procedure, adjusting the z-offset due to the raised bed and execute a PID tuning of the bed now and save the new values to the EEPROM.  
 
+-->  
+
 ---
 
 ## Magnetic Foil
@@ -182,7 +185,7 @@ The following picture shows a magnetic foil that Anycubic shipped together with 
 
 ## PEI Plate
         
-The bed uses a removable 230x230mm PEI-coated spring steel plate which makes it easy to remove the printed object.  
+The bed uses a removable 330x330mm PEI-coated spring steel plate which makes it easy to remove the printed object.  
 
 ![PEI plate](../assets/images/bed_K2Pro_PEI-plate_web.jpg)  
 
@@ -194,8 +197,8 @@ The following picture shows the surface of the textured side which you're suppos
 
 !!! warning "Attention: PEI Plate Size"  
 
-    If you're looking for a bedplate, a magnetic foil or just a PEI plate from a third party company, you need to get yourself a *230x230mm* plate, otherwise it would be too small!  
-    As it seems that most parts out there are either 220x220mm or 235x235mm, get yourself the 235x235mm version then. There is about 4mm space between the z-axis aluminum frames and the original bedplate, so if you pay attention to position e.g. the bigger PEI plate from the aftermarket correctly, then it'll fit.
+    If you're looking for a bedplate, a magnetic foil or just a PEI plate from a third party company, you need to get yourself a *330x330mm* plate, otherwise it would be too small!  
+
   
 
 ??? tip "Clean The PEI Plate Of The Bed"
@@ -352,13 +355,14 @@ The following picture shows the two spacers of the right side while being mounte
 
 ![Spacers mounted](../assets/images/bed_K2Pro_spacers-mounted_web.jpg) 
 
-Even though this is a somewhat rigid construction (if the material of the bed gantry would be thicker..), the culprit of this solution is that you can't manually tram the bedplate if needed. Besides that, a huge problem is that the stock spacers aren't all of equal height.  
+Even though this is a somewhat rigid construction (if the material of the bed gantry would be thicker..), the culprit of this solution is that you can't manually tram the bedplate if needed.  
+Besides that, it might happen that the stock spacers aren't all of equal height.  
 
 So it's very advisable to dismount the bed, take the stock spacers out and check if they're all of the same height. I'd suggest to use a digital caliper for doing so, but it you don't have one, you can also place them next to each other onto a *flat* surface and place something thin and straight (e.g. a ruler) onto them to check and compare the height.  
 Most likely they're not of equal height, which leads to a somewhat warped bed then. If you encounter this problem, I'd suggest to sand them down to the height of the shortest one. If you do so, pay attention to sand them down perpendicular - you don't want to end up with a tilted surface/spacer.  
 You could also try to shim it out of course, but especially if the differences are pretty small, then this can be a real hassle.  
 
----
+<!---
 
 ### MOD: Longer Spacers  
 If you want to insulate the bedplate, you'd have to use longer spacers to raise the bedplate. Otherwise the insulation would hit the mounting bracket of the Y-axis' motor.  
@@ -366,6 +370,7 @@ If you want to insulate the bedplate, you'd have to use longer spacers to raise 
 I personally used 20mm long aluminum spacers with a 5mm bore as shown in the following picture.  
 
 ![Stock vs longer spacers](../assets/images/bed_K2Pro_stock-spacer-vs-longer_web.jpg)
+-->
 
 ---
 
