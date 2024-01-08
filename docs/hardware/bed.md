@@ -32,9 +32,9 @@ Anycubic states in the official specs that the *size* is 320x320mm as well - whi
 
     If you're looking for a bedplate, a magnetic foil or just a PEI plate from a third party company, you need to get yourself a *330x330mm* plate, otherwise it would be too small!       
 
-The temperature of the bed should reach about ≤230°F/110°C maximum and therefore it's possible to successfully print e.g. ABS, PETG and TPU (by using a housing though) besides PLA.  
+The temperature of the bed should reach about ≤190°F/90°C maximum and therefore it's possible to successfully print e.g. ABS, PETG and TPU (by using an enclosure though) besides PLA.  
 
-The machine offers a 25-point automatic bed leveling which is called ["Anycubic LeviQ 2.0"](#anycubic-leviq-automatic-bed-leveling-function).  
+The machine offers a 49-point automatic bed leveling which is called ["Anycubic LeviQ 2.0"](#anycubic-leviq-automatic-bed-leveling-function).  
 In addition to only probing the bed's surface, there's a sensor located at the left rear side which is being used for determining the z-offset.  
 
 In the following I'll go into the details of each part of the whole bed construction.  
@@ -51,13 +51,8 @@ Next to the wiring at the left rear side of the bedplate is a sensor for measuri
 
 ![Bedplate top](../assets/images/bed_K2Pro_bedplate-labeled_web.jpg)  
 
-When buying the bedplate as a spare part, it'll come without the magnetic foil being attached as the following picture shows.  
-
-<!--
-![Bedplate top view](../assets/images/bed_plate-new_web.jpeg)  
-
-The surface is covered with a protective foil, which you have to pull off before applying the magnetic foil.   
--->
+When buying the bedplate as a spare part, it'll come without the magnetic foil being attached, so you have to get yourself the magnetic foil/sticker as well.  
+The surface of the plate is covered with a protective foil, which you have to pull off before applying the magnetic foil.   
 
 The heating coil is applied as a PCB to the underside of it as you can see in the following picture.  
 
