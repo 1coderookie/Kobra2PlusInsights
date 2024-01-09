@@ -32,10 +32,11 @@ On there you mount the z-axis frame which is shown in the following pictures (fr
 -->
 
 The z-axis frame is being mounted to the baseframe by using some brackets which has to be screwed to the side of the baseframe.  
-When you're mounting the parts, *make sure the z-frame really is perpendicular to the baseframe*! This is crucial as you don't want to have a tilted z-frame! Use e.g. a carpenter's square to check everything.  
+When you're mounting the parts, *make sure the z-frame really is perpendicular to the baseframe*!  
+*This is crucial as you don't want to have a tilted z-frame!* Use e.g. a carpenter's square to check everything.  
 Be as precise as you can be as it'll save you a lot of headaches and issues in the future when using the machine!  
 
-You then also have to mount two stabilizer rods, one to each side. These ones should *not* be used to somewhat straighten out a tilted z-frame, they should only reinforce the whole construction.  
+You then also have to mount two stabilizer rods from the top of the z-frame to the back of the baseframe, one to each side. These ones should *not* be used to somewhat straighten out a tilted z-frame, they should only reinforce the whole construction!  
 So, again: make sure the z-frame is mounted *perpendicular* to the baseframe, then add the stabilizer rods. Once everything is assembled, use the carpenter's square again to check if everything is properly aligned.  
 
 The following picture shows the mounting bracket of the z-axis and the mounting point for the stabilizer rods at the baseframe from an underside point of view at one side of the printer.  
