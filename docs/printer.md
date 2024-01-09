@@ -56,6 +56,7 @@ The following list gives an overview of the most important specifications:
 ## Box Content
 
 The printer comes partially preassembled and well packed in one big box.  
+Unfortunately I don't have pictures of the box content of the Kobra 2 Plus, so I'll show you the box content of the Kobra 2 Pro instead - besides the obviously different parts of the machine itself, it'll basically be the same.  
 
 ![Box content](assets/images/K2Pro_package_web.jpg)  
   
