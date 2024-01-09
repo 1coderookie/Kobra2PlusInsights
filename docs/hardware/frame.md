@@ -38,7 +38,8 @@ Be as precise as you can be as it'll save you a lot of headaches and issues in t
 You then also have to mount two stabilizer rods, one to each side. These ones should *not* be used to somewhat straighten out a tilted z-frame, they should only reinforce the whole construction.  
 So, again: make sure the z-frame is mounted *perpendicular* to the baseframe, then add the stabilizer rods. Once everything is assembled, use the carpenter's square again to check if everything is properly aligned.  
 
-The following picture shows the mounting bracket of the z-axis and the mounting point for the stabilizer rods from an underside point of view at one side of the printer.  
+The following picture shows the mounting bracket of the z-axis and the mounting point for the stabilizer rods at the baseframe from an underside point of view at one side of the printer.  
+
 ![Underside view mounting bracket](../assets/images/frame_K2Plus_z-frame-mount_web.jpg)  
 
     
