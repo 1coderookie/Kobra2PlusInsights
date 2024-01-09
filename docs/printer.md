@@ -15,7 +15,7 @@ The following pictures show the machine.
   
 | Kobra 2 Plus frontview | Kobra 2 Plus backview |  
 |:---------------------:|:--------------------:| 
-| ![Kobra 2 Pro front](assets/images/printer_K2Pro_front2_web.jpg) |  ![Kobra 2 Pro back](assets/images/printer_K2Pro_back_web.jpg) |  
+| ![Kobra 2 Plus front](assets/images/printer_K2Plus_front_web.jpg) |  ![Kobra 2 Plus back](assets/images/printer_K2Plus_back_web.jpg) |  
 
 *Note: I didn't attach the filament spool holder to the left side of the machine as it should be done when taking these pictures for being able to put both pictures between each other in a decent size here.*   
 
