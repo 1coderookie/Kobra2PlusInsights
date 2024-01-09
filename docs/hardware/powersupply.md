@@ -24,9 +24,9 @@ The powerswitch and the plug are located at the left hand corner in the back at 
 
     Before plugging in the powercord and switching on the printer, make sure that you set the little switch for choosing the voltage to the correct value! You can access it from the back of the printer and either set it to 110V or 230V - so make sure everything is set correctly first! <br> ![Voltage switch](../assets/images/psu_K2Pro_voltage-switch_web.jpg)  
   
-The housing of the power supply unit is mounted at the back of the base frame underneath the bed. If you pull the bed to the front, you can see the metallic housing. For getting a better view, I dismounted the bedplate and the z-axis frame as shown in the following picture.  
+The power supply unit is mounted at the middle-back of the base frame underneath the bed. If you pull the bed to the front, you can see the metallic housing. For a better view, the following picture shows the underside of the machine - the PSU is the silver metallic part.   
 
-![Housing underneath the bed](../assets/images/frame_K2Pro_baseframe_web.jpg)
+![Housing underneath the bed](../assets/images/Kobra2Plus_underside_web.jpg)
 
 !!! warning "Warning: Turn Off And Unplug The Machine Before Accessing The Connectors"  
 
