@@ -652,7 +652,7 @@ It's not a 'real' linear rail like a MGN12 system for example though - instead, 
 
 The following picture shows this rail system.  
 
-![Y rail system](../assets/images/axes_K2Pro_Y-rail-system_web.jpg)  
+![Y rail system](../assets/images/axes_K2Plus_Y-rail-system_web.jpg)  
 
 ---
     
@@ -666,9 +666,9 @@ You can adjust the position and therefore the overall pressure of the bearings a
 
 ![Eccentric nuts Y frontview](../assets/images/axes_K2Pro_Y-eccentric-nuts_frontview_web.jpg)  
 
-You can actually see them better when looking at it from the right side.  
+You can actually see them better when looking at them from the side.  
 
-![Eccentric nuts Y sideview](../assets/images/bed_K2Pro_eccentric-nuts-gantry_web.jpg)  
+![Eccentric nuts Y sideview](../assets/images/axes_K2Plus_Y-rail-system_web.jpg)  
 
 ??? info "What Is An Eccentric Nut?"  
 
