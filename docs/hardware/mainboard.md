@@ -14,7 +14,7 @@ It offers three USB-A connectors labeled at the PCB as "U-EXT1", "U-EXT2" and "U
 
 It also offers a built in Realtek WiFi chip ([RTL8723DU](https://www.realtek.com/en/products/communications-network-ics/item/rtl8723du)) with an external antenna which is glued to the left front side of the black plastic aperture from the inside of the housing (the position is about where the label "Kobra 2 Pro" is located).   
 
-![Mainboard TriGorilla front](../assets/images/mainboard_K2Pro_frontside_web.jpg)  
+![Mainboard TriGorilla front](../assets/images/mainboard_K2PlusMax_frontside_web.jpg)  
   
 ![Mainboard TriGorilla back](../assets/images/mainboard_K2Pro_backside_web.jpg)  
 
