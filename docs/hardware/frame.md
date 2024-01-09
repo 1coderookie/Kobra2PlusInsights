@@ -17,7 +17,9 @@
     Take your time setting up the frame of the printer (and the axes and wheels etc. after doing so as well), be as precise as you can be. Every misalignment here will most likely cause some weird issues later which might be hard to find or even solve if you're not remembering that maybe the construction itself might be the cause.   
 
 The machine comes preassembled with basically two major frame parts (which consist of individual parts) which I'd call the base frame and the z-axis frame.  
+Unfortunately I don't have pictures of these individual frame parts, so I can't show them here, but it's what you take out of the package when you unbox the machine.  
 
+<!--
 The following picture shows what I'd call the base frame.  
 
 ![Base frame](../assets/images/frame_K2Pro_baseframe_web.jpg)   
@@ -27,16 +29,18 @@ On there you mount the z-axis frame which is shown in the following pictures (fr
 ![Z-axis frame](../assets/images/axes_K2Pro_z-frame-front_web.jpg)   
 
 ![Z-axis frame](../assets/images/axes_K2Pro_z-frame-back_web.jpg)   
+-->
 
+The z-axis frame is being mounted to the baseframe by using some brackets which has to be screwed to the side of the baseframe.  
+When you're mounting the parts, *make sure the z-frame really is perpendicular to the baseframe*! This is crucial as you don't want to have a tilted z-frame! Use e.g. a carpenter's square to check everything.  
+Be as precise as you can be as it'll save you a lot of headaches and issues in the future when using the machine!  
 
-!!! warning "Don't Put It On The Side For Mounting"
+You then also have to mount two stabilizer rods, one to each side. These ones should *not* be used to somewhat straighten out a tilted z-frame, they should only reinforce the whole construction.  
+So, again: make sure the z-frame is mounted *perpendicular* to the baseframe, then add the stabilizer rods. Once everything is assembled, use the carpenter's square again to check if everything is properly aligned.  
 
-    I always see people putting the whole construction on the side, with the printer resting on the side of the baseframe and the according site of the z-frame (or, to be more precise, only certain parts of it touching the desk!). Then they insert the screws and tighten them up, turn the printer around on the other side and do the same there. But by doing so, you'll risk that the z-fame won't be mounted perpendicular to the baseframe.  
-    
-    So what I'd recommend is to put the printer to the edge of a table, letting one side stick out a bit where you want to put in the screws.  
-    Now put the z-fame on top of the base frame and make sure that the z-frame really is perpendicular to the base frame using a carpenter's square while tightening up the screws as shown in the following picture.  
+The following picture shows the mounting bracket of the z-axis and the mounting point for the stabilizer rods from an underside point of view at one side of the printer.  
+![Underside view mounting bracket](../assets/images/frame_K2Plus_z-frame-mount_web.jpg)  
 
-    ![Mounting](../assets/images/frame_assembly-tip_web.jpg)  
     
 After mounting both parts together, you'll already have the printer standing in front of you.  
 
