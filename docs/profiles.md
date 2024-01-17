@@ -14,15 +14,21 @@ The USB drive shipped with your printer should contain Cura and PrusaSlicer prof
 However, these profiles most likely need individual tweaking. The settings like print speed, retraction settings, extruder and bed temperature etc. also depend on the type of material you want to use (e.g. PLA/ABS/PETG/TPU). But also for the same type of filament material like PLA the settings often need to be adjusted again if you're using filament of a different manufacturer or even just another spool or colour of the same brand.  
 There are countless guides about this topic in general, so I'd recommend to dig into it deeper using your preferred sites or specific videos.   
 
-<!--  
-There are users who offer their profiles for the Go and Neo, so that beginners have a better starting point if the stock ones don't seem to work for them. In the following I'll list them as far as I'm aware of them. Be aware though that you still have to check the settings and finetune them for your device.   
--->  
-
 You can always set up your own custom profile in your slicer. Just pay attention to the general machine settings, like the bed size and so on.  
   
 ??? tip "Set Up Filament Specific Profiles"
 
     When you're using more than one filament, it's a good idea to set up a profile for each spool of filament you have. So not only for the type of filament (like PLA, PETG etc.), but also for the different manufacturer, the colour and so on. It happens that you have to use slightly different settings even with the same type of filament from the same brand but just when using a different colour of it.   
+
+??? tip "Try PrusaSlicer"  
+
+    Many users seem to get better results when using PrusaSlicer instead of Cura (I personally switched to PrusaSlicer a long time ago and don't use Cura anymore, so I can't really judge it), so maybe give PrusaSlicer a try if you're using Cura.  
+
+!!! tip "Slicer Setting: Set G-Code Flavour To "Klipper""
+
+    As KobraOS is based on Klipper, you should set the g-code flavour to "Klipper" accordingly if your slicer offers that function.  
+    In PrusaSlicer you can find this setting under "Printer Settings" -> "General" -> "Firmware" (you need to have "Expert" mode activated to get access to that option!). The following screenshot shows that setting.  
+    ![G-code flavour](assets/images/g-code_flavour.png)  
   
 ---
 
@@ -30,8 +36,8 @@ You can always set up your own custom profile in your slicer. Just pay attention
 
 The following list links to the specific profiles from [Anycubic's firmware page](https://www.anycubic.com/pages/firmware-software): 
  
- - [Profile for PrusaSlicer](https://drive.google.com/file/d/1ADX_Y6oFosKwoohzcw0gUPFc67n_XUub/view)  
- - [Profile for Cura](https://drive.google.com/file/d/1yfL37414oz0F4p-yFsYAbx0iMnToSfJM/view?usp=share_link)  
+ - [Profile for PrusaSlicer](https://drive.google.com/file/d/1D-iqxPlP9TRq5NXVWtQRBSRd3YL2Ip79/view)  
+ - [Profile for Cura](https://drive.google.com/file/d/1g9axp1mVdR3DMiAxwu7wH2SFdoKHWJPh/view)  
 
     
 ---
