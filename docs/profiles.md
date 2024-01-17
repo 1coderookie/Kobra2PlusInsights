@@ -24,7 +24,7 @@ You can always set up your own custom profile in your slicer. Just pay attention
 
     Many users seem to get better results when using PrusaSlicer instead of Cura (I personally switched to PrusaSlicer a long time ago and don't use Cura anymore, so I can't really judge it), so maybe give PrusaSlicer a try if you're using Cura.  
 
-!!! tip "Slicer Setting: Set G-Code Flavour To "Klipper""
+??? tip "Slicer Setting: Set G-Code Flavour To "Klipper""
 
     As KobraOS is based on Klipper, you should set the g-code flavour to "Klipper" accordingly if your slicer offers that function.  
     In PrusaSlicer you can find this setting under "Printer Settings" -> "General" -> "Firmware" (you need to have "Expert" mode activated to get access to that option!). The following screenshot shows that setting.  
