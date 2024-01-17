@@ -64,11 +64,8 @@ If I find the time, I'll add some screenshots as well, but I suggest to read aro
 ### PrusaSlicer, SuperSlicer, OrcaSlicer 
 PrusaSlicer (initially based on "Slic3r") and it derivates like SuperSlicer and OrcaSlicer are my personal favourites after using Cura for some time.  
 
-If you need it, you can find [Anycubic's PrusaSlicer Usage Instructions V1.1 here](https://cdn.shopify.com/s/files/1/0245/5519/2380/files/PrusaSlicer_Usage_Instructions_V1.1_EN.pdf?v=1685695259).
-
-You can set the G-code flavor depending on the firmware of the printer (menu "Printer Settings"), so set it to "Klipper" as shown in the screenshot of SuperSlicer below, so it's already everything set up correctly within the G-code of the sliced files.  
-  
-![SuperSlicer firmware](../assets/images/klipperfw_superslicer-flavor.png)
+You can set the G-code flavor depending on the firmware of the printer, so set it to "Klipper". In PrusaSlicer you can find this setting under "Printer Settings" -> "General" -> "Firmware" (you need to have "Expert" mode activated to get access to that option!). The following screenshot shows that setting.  
+![G-code flavour](assets/images/g-code_flavour.png)  
   
 Of course all slicers have many functionalities to finetune and control the output - you can even choose between different patterns for the top layer finish. They're all pretty identical overall, yet they differ in certain functions. One of them being worth mentioned is a *handy set of calibration tools that comes with SuperSlicer and OrcaSlicer*. This function actually guides you step by step through the calibration process and allows you to generate calibration models like temperature or retraction towers with individual settings by just a few clicks.  
 
