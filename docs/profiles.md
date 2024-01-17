@@ -46,7 +46,7 @@ The following list links to the specific profiles from [Anycubic's firmware page
 
 Here you'll find links to profiles made by users - if I'm getting aware of them.  
 
-- [Mircea M](https://www.printables.com/de/@mrfenyx) set up a profile for **OrcaSlicer**, you can find it [here](https://www.printables.com/de/model/646205-anycubic-kobra-2-pro-orcaslicer-profiles).
+- [Mircea M](https://www.printables.com/de/@mrfenyx) set up a profile for **OrcaSlicer** for the Kobra 2 **Pro**, you can find it [here](https://www.printables.com/de/model/646205-anycubic-kobra-2-pro-orcaslicer-profiles). So if you want to use it as a template for your Kobra 2 *Plus*, make sure to adjust the bedsize (= needs to be bigger for you then!) and some acceleration settings (= need to be lower for you then!) accordingly.  
 
 ---
 
