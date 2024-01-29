@@ -91,7 +91,7 @@ The thermistor is a 100k NTC "ATC Semitec 104GT-2" type which is soldered onto t
 
     To make sure the heating algorithm can work as expected and keeps the fluctuation of the temperature as low as possible, execute a PID tuning for the bed. You can find information about how to do that in the section ["PID Tuning"](../calibration.md#pid-tuning). 
 
-<!---
+---
 
 ### MOD: Insulating The Bedplate 
 What I personally can highly recommend is to insulate the underside of the bed.  
@@ -140,8 +140,7 @@ However, I have to mention that I didn't print with higher bed temperatures than
     - Then add the spacers and the screws and mount the bed onto the gantry again. Make sure that the insulation doesn't touch the construction and the motor mount at the back, the bed has to move as free as before. So move the bedplate manually to see if everything is fine and if there's enough clearance between the insulation and the other parts.  
     - If you used adjustable spacers, tram the bed again.  
     - When switching on the printer, make sure you proceed with executing an ABL procedure, adjusting the z-offset due to the raised bed and execute a PID tuning of the bed now and save the new values to the EEPROM.  
-
--->  
+ 
 
 ---
 
