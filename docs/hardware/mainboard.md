@@ -29,7 +29,7 @@ So when you're looking at the connector in the direction of the picture above, t
 
 The USB-A connectors can be accessed from the front of the printer, you find them at the right hand side of that black plastic aperture of the frame as shown in the picture below.  
 
-![USB-A connectors](../assets/images/K2Pro_front_USB_web.jpg)  
+![USB-A connectors](../assets/images/K2Plus_front-sign_web.jpg)  
 
 --- 
 
