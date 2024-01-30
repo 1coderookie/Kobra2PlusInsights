@@ -157,6 +157,9 @@ Only some of the tents available on the market seem to really differ from those 
 I got myself one of those "generic" ones which was branded by Sunlu and one from SainSmart which I'll show in the following and mention some pros and cons I personally consider worth mentioning.  
 I didn't get the one fromm Creality as it was the narrowest among those offers (width ~47.5cm) - even though it would be sufficient and the printer would fit in there (without the spool holder being mounted to the side), I personally like a bit of additional space as I often get my hands on the hardware anyway and therefore won't need to always take the printer out of the enclosure when choosing a slightly wider tent.  
 
+*Attention: I'm not 100% sure, but I think the following tents do NOT fit the Kobra 2 Plus!*  
+However, as it still might be possible and/or informative (as bigger tent are available as well), I'll present both ones here anyway. 
+
 ***Sunlu (imho "generic" type of tent)***  
 The size of this generic tent style enclosure one is about 55x64x74cm.  
 Due to it's height, the enclosure allows the usage of a filament spool holder mounted to the top of the frame.    
@@ -191,6 +194,8 @@ However, due to the fact that the following enclosure from SainSmart is just so 
 
 If you're planning on using this type of tent in a really dusty environment though, like in a workshop where you also work with wood or so, I'd strongly recommend to get yourself the tent from SainSmart (see below) instead as the zipper and the whole material is made of a much better quality.   
 
+UPDATE: I gave this one away to a friend and got myself some more of the SainSmart enclosures when they were on sale. The quality is just outstanding compared to the 'generic' one I showed. 
+
 ***SainSmart "Upgraded Large Volume 3D Printer Enclosure"***   
 The size of this tent style enclosure from SainSmart one is about 54x62x72cm.  
 Due to it's height, the enclosure allows the usage of a filament spool holder mounted to the top of the frame.  
@@ -221,6 +226,10 @@ On the right side there's an additional oopening as well which allows you to acc
 
 Due to the better quality, I personally used this tent for one of my Kobra Neos which only prints other types of filament than PLA in the first place.  
 But because the quality is just so much better than the quality of the generic one mentioned above, I ended up getting more of these enclosure from SainSmart and only use these ones now. Compared to the generic one, it's really impressive how much quieter the printer is and how much better the fumes are being kept iniside.  
+
+UPDATE: I gave the 'generic' one away to a friend and got myself some more of the SainSmart enclosures when they were on sale. The quality is just outstanding compared to the 'generic' one I showed. I even got myself more than I actually needed - just in case I'll get another machine. My cat loves them as well - she immediately seized the packages when I was setting up a new one..  
+
+![Even my cat loves em](../assets/images/SainSmart_catsy.jpg)  
 
 **Final thoughts on tent style enclosures**  
 My bottom line here about these two types of tent style enclosures would be: if you plan to use the enclosure for *printing* more demanding types of filament like ABS for example and not just like using it as a better dust protection cover, then I highly recommend getting the one from SainSmart.  
