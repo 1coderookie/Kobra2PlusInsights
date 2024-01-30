@@ -487,7 +487,7 @@ Please see the expandable textbox below for further instructions about how to tr
 ## Y-Axis
 The following picture shows the baseframe of the machine where you can see the y-axis very well.  
 
-![Y-axis](../assets/images/frame_K2Pro_baseframe_web.jpg)  
+![Y-axis](../assets/images/axes_K2Plus_Y-axis_web.jpg)  
 
 The y-axis is the long rail in the middle which reaches from the front to the back and where the gantry of the bed (the gantry is the construction where the bed is mounted onto) is running along.  
 
@@ -660,15 +660,11 @@ The following picture shows this rail system.
 The metal wheels of the bed's gantry, the SG15 bearings, are leading the bed along the aluminum profile of the y-axis.  
 These bearings run along a round-shaped metal rail and therefore they should sit in an optimal position.    
 
-You can adjust the position and therefore the overall pressure of the bearings against the metal rail of only *two* bearings by turning the eccentric nut which moves the bearing either towards or away from the metal rail.   
+You can adjust the position and therefore the overall pressure of the bearings against the metal rail by turning the eccentric nuts which move the bearing either towards or away from the metal rail. Four of the six bearings can be adjusted in their position. The following pictures show the position of the belonging eccentric nuts.  
 
-*The bearings whose position can be adjusted are located at the ***right hand side*** of the gantry when looking at it from the front - the two wheels at the left side of the aluminum frame can't be adjusted as there aren't any eccentric nuts mounted!*  
-
-![Eccentric nuts Y frontview](../assets/images/axes_K2Pro_Y-eccentric-nuts_frontview_web.jpg)  
-
-You can actually see them better when looking at them from the side.  
-
-![Eccentric nuts Y sideview](../assets/images/axes_K2Plus_Y-rail-system_web.jpg)  
+| Bearings and ecentric nut left side | Bearings and eccentric nuts right side | 
+|:---------:|:----------:|
+| ![Eccentric nut Y sideview left](../assets/images/axes_K2Plus_y-rail-nuts-left_web.jpg) | ![Eccentric nuts Y sideview right](../assets/images/axes_K2Plus_y-rail-nuts-right_web.jpg)  |
 
 ??? info "What Is An Eccentric Nut?"  
 
