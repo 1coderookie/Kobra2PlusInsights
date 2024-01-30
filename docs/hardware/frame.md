@@ -36,7 +36,22 @@ When you're mounting the parts, *make sure the z-frame really is perpendicular t
 *This is crucial as you don't want to have a tilted z-frame!* Use e.g. a carpenter's square to check everything.  
 Be as precise as you can be as it'll save you a lot of headaches and issues in the future when using the machine!  
 
-You then also have to mount two stabilizer rods from the top of the z-frame to the back of the baseframe, one to each side. These ones should *not* be used to somewhat straighten out a tilted z-frame, they should only reinforce the whole construction!  
+The folowing picture shows one of those mounting brackets from the front view.  
+
+![Mounting bracket front](../assets/images/frame_K2Plus_z-frame-mount_low-left_web.jpg)  
+
+
+You then also have to mount two stabilizer rods from the top of the z-frame to the back of the baseframe, one to each side. Preferrably these ones should *not* be used to somewhat straighten out a tilted z-frame, they should only reinforce the whole construction - but if it's impossible to mopunt the frame perpendicular without enforcing it's position using these rods, then you have to do it that way.  
+The following picture shows one of these stabilizer rods.  
+
+![Stabilizer rod single](../assets/images/frame_K2Plus_stabilizer-rod_web.jpg)  
+
+The following pictures show the belonging mounting points.  
+
+| Mounting point bottom | Mounting point top |  
+|:---------------------:|:------------------:|
+| ![Mounting point bottom](../assets/images/frame_K2Plus_stabilizer-mount_low-right_web.jpg) | ![Mounting point top](../assets/images/frame_K2Plus_stabilizer-mount_upper_web.jpg) |
+
 So, again: make sure the z-frame is mounted *perpendicular* to the baseframe, then add the stabilizer rods. Once everything is assembled, use the carpenter's square again to check if everything is properly aligned.  
 
 The following picture shows the mounting bracket of the z-axis and the mounting point for the stabilizer rods at the baseframe from an underside point of view at one side of the printer.  
@@ -49,6 +64,11 @@ After mounting both parts together, you'll already have the printer standing in 
 | Kobra 2 Plus frontview | Kobra 2 Plus backview |  
 |:---------------------:|:--------------------:| 
 | ![Kobra 2 Plus front](../assets/images/printer_K2Plus_front_web.jpg) |  ![Kobra 2 Pro back](../assets/images/printer_K2Plus_back_web.jpg) | 
+
+The following picture shows the printer from the sideview, so you can see the stabilizer rods better.  
+
+![Kobra 2 Plus sideview](../assets/images/printer_K2Plus_sideview_web.jpg)    
+
 
 ---
 
