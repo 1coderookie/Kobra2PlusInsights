@@ -331,10 +331,6 @@ The spacers are about 7mm outer diameter with a 5mm bore and they're about 14mm 
 
 ![Stock spacers](../assets/images/bed_K2Pro_stock-spacers_web.jpg)  
 
-The following picture shows the two spacers of the right side while being mounted between the bedplate and the gantry.  
-
-![Spacers mounted](../assets/images/bed_K2Pro_spacers-mounted_web.jpg) 
-
 Even though this is a somewhat rigid construction (if the material of the bed gantry would be thicker..), the culprit of this solution is that you can't manually tram the bedplate if needed.  
 Besides that, it might happen that the stock spacers aren't all of equal height.  
 
