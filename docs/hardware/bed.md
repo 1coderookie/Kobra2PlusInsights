@@ -23,7 +23,7 @@ The following pictures show the bedplate (without the PEI plate) from the top an
 
 | Bedplate topside | Bedplate underside |
 |:----------------:|:------------------:|
-| ![Bedplate top](../assets/images/bed_K2Pro_bedplate-labeled_web.jpg) | ![Bedplate underside](../assets/images/bed_K2Pro_bedplate-underside_web.jpg) |
+| ![Bedplate top](../assets/images/bed_K2Plus_bedplate-labels_web.jpg) | ![Bedplate underside](../assets/images/bed_K2Plus_underside-full_web.jpg) |
 
 The build volume is 320x320mm.  
 Anycubic states in the official specs that the *size* is 320x320mm as well - which is definitely wrong and misleading though, as the *physical* dimension of the bed is 330x330mm.  
@@ -49,14 +49,16 @@ On the top surface there's a [magnetic foil](#magnetic-foil) glued onto it which
 On the underside there's insulation material being glued on which is about 2mm thick.    
 Next to the wiring at the left rear side of the bedplate is a sensor for measuring the z-offset and a silicone block for cleaning the nozzle.  
 
-![Bedplate top](../assets/images/bed_K2Pro_bedplate-labeled_web.jpg)  
+![Bedplate top](../assets/images/bed_K2Plus_bedplate-labels_web.jpg))  
 
 When buying the bedplate as a spare part, it'll come without the magnetic foil being attached, so you have to get yourself the magnetic foil/sticker as well.  
 The surface of the plate is covered with a protective foil, which you have to pull off before applying the magnetic foil.   
 
-The heating coil is applied as a PCB to the underside of it as you can see in the following picture.  
+The heating coil is applied as a PCB to the underside of the bedplate - as it's already insulated, you can't really see the heating coil tough.  
 
-![Bedplate underside](../assets/images/bed_K2Pro_bedplate-underside_web.jpg)  
+![Bedplate underside](../assets/images/bed_K2Plus_underside-full_web.jpg)  
+
+Mind the bubbles of the insulation you can see at this pictures (*not* the 'bulge' in the center - that's where the thermistor is located). If you have those bubbles as well, *carefully* poke a small hole in the insulation by using a needle and push out the air. You want the insulation being glued onto the plate with no trapped air in between.  
    
 At the left rear side of the bedplate you'll notice a black plastic cap which sticks out. Be careful to never break it by accident as it acts as a strain relief and protects the wires which are soldered to the contacts of the board at the bottom side.  
 Next to that cap the z-offset sensor and the silicone block for wiping the nozzle before probing the bed's surface are located as shown in the following picture.  
@@ -94,21 +96,10 @@ The thermistor is a 100k NTC "ATC Semitec 104GT-2" type which is soldered onto t
 ---
 
 ### MOD: Insulating The Bedplate 
-What I personally can highly recommend is to insulate the underside of the bed.  
-You can get special insulation mats for 3d printers which meet the requirements for this (like being suited for higher temperatures and being flame retardant) for a few bucks. See the expandable textblock below for some tips about the installation.    
-Make sure you order the correct size (preferrably a bit bigger) which is 230x230mm as that's the size of the bedplate itself.  
+The bedplate of the Kobra 2 Plus already comes insulated as the following picture shows.  
 
-The following picture shows an insulated bedplate (not yet the one of this machine though).  
+![Bedplate underside](../assets/images/bed_K2Plus_underside-full_web.jpg)  
 
-![Bed insulated](../assets/images/bed_insulated_web.jpg)
-
-By insulating the bed the temperature won't fluctuate as much as before, it heats up faster and it takes less energy to keep the desired temperature (so you actually lower the power consumption). It also takes longer for the bed to cool down which became impressively clear after doing a PID tune for the bed and comparing the graphs of before and after adding the insulation as the following screenshots will show.  
-The first screenshot shows the bed temperature (blue graph) before the insulation while doing a PID tuning. The temperature is set to 60°C, after reaching that temperature the bed cools down to 55°C and heats up to 60°C again (and so on). The second screenshot shows the same process but with installed insulation. You can clearly see that it takes longer to cool down after reaching the 60°C as the blue graph of the second screenshot isn't declining as steep and fast to the 55°C target temperature as the one in the first screenshot.  
-![Bed PID before insulating](../assets/images/bed_pre-insulation_PID.jpg)   
-![Bed PID after insulating](../assets/images/bed_post-insulation_PID.jpg)  
-  
-After adding the insulation, the temperature didn't fluctuate anymore at all during a print, even when I opened the window from time to time - the graph was just a straight line. So I'm actually highly satisfied with this and can strongly recommend insulating the bedplate.  
-However, I have to mention that I didn't print with higher bed temperatures than 60-70°C yet, so I don't know how good the insulation will stay in place when printing with bedtemps like ~100°, but I hope it'll still work out fine..      
 
 !!! warning "Mind The Gap!"
 
@@ -117,25 +108,20 @@ However, I have to mention that I didn't print with higher bed temperatures than
 
 ??? example "Adding The Insulation"  
 
-    Before I'll go into the steps about how to apply the insulation, I have to point out a few things first:  
+    Before I'll go into the steps about how to apply additional insulation, I have to point out a few things first:  
     
     - *You'll need longer spacers and screws due to the thickness of the insulation (which is about 9-10mm most of the time)!*  
     - *You'll need to raise the whole bedplate to avoid contact between the insulation and the motor mount at the back of the construction.*  
-        If you use the beforementioned 25mm springs and longer screws, you should be fine as they are longer then the stock spacers anyway.  
-        If you'll use the stock spacers or silicone spacers of about the same size, you can add bolt nuts underneath to raise the bed. However, it's advisable though to get yourself longer spacers then!   
-    - *It's also advisable to have Kapton tape on hand to cover the whole underside of the bedplate with it (before you actually apply the insulation) and to secure the edges and sides of the insulation (after applying the insulation)!*  
-        Make sure that *no bubbles* are trapped between the Kapton tape and the surface of the bed's underside then! And do a proper cleaning of the surface to avoid that the tape will (partially) come off!   
-    
-    - For adding the insulation, you need to dismount the bedplate from the gantry by taking out the four screws (remove the PEI coated plate first tho). Be careful with the wires when moving the plate. Put the plate onto the insulation (but don't peel off the protective layer of the adhesive yet!), align it and mark the four holes of the screws.  
+    - *If you want to add an additional layer of insulation, I personally would recommend to *not* tear off the original insulation - just apply the additional layer on top of it.*  
+    - *Before attempting to apply the additional insulation, inspect the given insulation: can you spot any bubbles caused by trapped air?  
+       Don't mind the bulge in the center of the bed - that's where the thermistor is located. But as you can see in the picture above, there are additional bubbles. If you have those bubbles as well, *carefully* poke a small hole in the insulation by using a needle and push out the air. You want the insulation being glued onto the plate with no trapped air in between.  
+
+    - For adding the insulation, you need to dismount the bedplate from the gantry by taking out the four screws (remove the PEI coated plate first though). Be careful with the wires when moving the plate. Put the plate onto the insulation (but don't peel off the protective layer of the adhesive yet!), align it and mark the four holes of the screws.  
     - Then place the bed upside down on a flat and clean surface - wipe the surface beforehand tho to make sure that there's no dirt or even metal chips which would press into or stick onto the magnetic surface. Now use IPA or (which I prefer) silicone remover to wipe the underside of the bed where the insulation should be applied to and clean off any dirt or grease from your fingers.  
     - Now lay down the insulation onto the bed like if you would apply it (*but still with the protective layer on the adhesive!*) and adjust the position. Mark the area where the wires are connected to the bed as well and cut away that part of the insulation.  
       ![Cut section](../assets/images/bed_insulation_cutout_web.jpg)  
     - Place the spacers above the premarked holes and cut away the insulation in that area as well, so that the spacers will touch the plate later without any insulation between. I'd recommend to mark the areas that should be cut and then take the insulation away from the bedplate, so that you don't harm the surface when using a sharp knife or so.   
-    - When it comes down to finally apply the insulation, *I personally would suggest to cover the whole surface of the bed with Kapton tape first,* just in case you'd have to tear off the insulation in the future. I also added two layers of Kapton tape especially above the contacts and the little piece of foam of the thermistor in the center of the bed and marked that area roughly at the insulation, just in case I'd have to replace the thermistor in the future.  
-      *Make sure there are no bubbles trapped underneath the Kapton tape though!*    
-      ![Adding Kapton](../assets/images/bed_insulation_kapton1_web.jpg) | ![Adding Kapton](../assets/images/bed_insulation_kapton2_web.jpg)   
-      Note: Looking back, I now would *remove* that piece of foam which covers the thermistor in the middle to make sure the insulation covers the bed without any air trapped in between! Cover that hole of the thermistor with Kapton tape though before you apply the insulation.  
-    - Once everything is done and prepared, you can finally apply the insulation. Make sure you start at one side to avoid any bubbles, you want the insulation to stick on the bed equally. If some of the insulation protrudes beyond the plate, cut it off. The following picture shows the applied insulation. <br> ![Bed insulated](../assets/images/bed_insulated_web.jpg)   
+    - When it comes down to finally apply the insulation, make sure you start at one side and that you avoid *any* bubbles, you want the insulation to stick on the bed equally. If some of the insulation protrudes beyond the plate, cut it off. The following picture shows the applied insulation (at a different bed though). <br> ![Bed insulated](../assets/images/bed_insulated_web.jpg)   
     - *I highly recommend to additionally secure the insulation by using some pieces of Kapton tape as well to ensure that the edges and sides of the insulation won't come loose.* Don't skip this step, as the insulation most likely will come off sooner or later at the sides and edges (at least mine did).    
     - Then add the spacers and the screws and mount the bed onto the gantry again. Make sure that the insulation doesn't touch the construction and the motor mount at the back, the bed has to move as free as before. So move the bedplate manually to see if everything is fine and if there's enough clearance between the insulation and the other parts.  
     - If you used adjustable spacers, tram the bed again.  
@@ -419,19 +405,21 @@ Keep in mind that the silicone spacers (I used 18mm long ones shown below) compr
 
 ## Bed Gantry
 
-The bedplate itself is mounted to the bed gantry which runs along the y-axis rail shown in the following pictures.  
+The bedplate itself is mounted to the bed gantry with six screws in total (three at each side), the bedgantry itself then runs along the y-axis rail shown in the following pictures.  
 
-![Bed gantry top view](../assets/images/bed_K2Pro_gantry2_web.jpg)  
+![Bed gantry top view](../assets/images/bed_K2Plus_gantry_web.jpg)  
 
 As you can see, the belt is hooked into the belonging notches at the front and the rear of the H-shaped gantry.     
 The side parts of the gantry with the threaded M4 mounting holes for the screws which hold the bedplate (see the silver spacers for the locations) are bent like an L for additional stability.  
-The SG15 bearings that run along the round-shaped rails at the sides of the aluminum y-axis frame are mounted to the undersideof the gantry.  
+The six SG15 bearings that run along the round-shaped rails at the sides of the aluminum y-axis frame are mounted to the underside of the gantry (three at each side).  
 
-![Bed gantry front view](../assets/images/bed_K2Pro_gantry1_web.jpg)  
+![Bed gantry front view](../assets/images/bed_K2Plus_gantry-front_web.jpg)  
 
-The following picture shows the right side of the gantry from a sort of underside view to show you the positions of the eccentric nuts of the SG15 bearings.  
+The following picture show the left and right side of the gantry from a sort of underside view to show you the positions of the eccentric nuts of the SG15 bearings. Mind that there's one eccentric nut at the left hand side as well (in the middle) - you can find more information about how to maintain the SG15 bearings and how to adjust the eccentric nuts in the section ["Y-Axis"](axes.md#y-axis).   
 
-![Eccentric nuts Y sideview](../assets/images/bed_K2Pro_eccentric-nuts-gantry_web.jpg) 
+| Bearings and ecentric nut left side | Bearings and eccentric nuts right side | 
+|:---------:|:----------:|
+| ![Eccentric nut Y sideview left](../assets/images/axes_K2Plus_y-rail-nuts-left_web.jpg) | ![Eccentric nuts Y sideview right](../assets/images/axes_K2Plus_y-rail-nuts-right_web.jpg)  |
 
 The y-axis limit switch is being triggered by the rear left SG15 roller when the gantry is moving completely to the back.  
 
