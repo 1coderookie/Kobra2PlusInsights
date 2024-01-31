@@ -12,8 +12,8 @@
 | **X- & Y-Axis Linear Rail System**: SG15 bearings, chrome-plated stainless steel rods, ??mm OD (--> need to check specs again!) |
 | **X-Axis Motor**: 42x34 Nema17, 1.8°, 200 steps, 5mm shaft with 20(??) teeth pulley (5mm bore) attached (for 6mm wide belt) (--> need to check specs again!) |
 | **Y-Axis Motor**: 42x48 Nema17, 1.8°, 200 steps, 5mm shaft with 16 teeth pulley (5mm bore, 11mm teeth length) attached (for 8mm wide belt) (--> need to check specs again!) |
-| **Z-Axis Lead Screws**: T8x8 (8mm diameter, 8mm lead, 2mm pitch, 4 starts), 350mm length, 10mm and ~23mm unthreaded 5mm OD shaft, belt-driven dual z  |
-| **Z-Axis Timing Belt**: GT-2, 6mm width, closed loop, length ??mm |
+| **Z-Axis Lead Screws**: T8x8 (8mm diameter, 8mm lead, 2mm pitch, 4 starts), ???mm length, 10mm and ~23mm unthreaded 5mm OD shaft, belt-driven dual z  |
+| **Z-Axis Timing Belt**: GT-2, 6mm width, closed loop, length ???mm |
 | **Z-Axis Lead Screw Pulleys**: 20(??) teeth (5mm bore) (for 6mm wide belt) (--> need to check specs again!) |
 | **Z-Axis Anti-Backlash Nut**: POM, spring loaded, 8mm inner diameter, 20mm distance between mounting screws (18mm will fit as well due to elongated holes at the bracket!) |
 | **Z-Axis V-Slot Wheels**: POM, ~24x10.2mm with 6mm width at the tip of the "V", 625 type ball bearing with 5mm inner diameter |
@@ -485,7 +485,7 @@ Please see the expandable textbox below for further instructions about how to tr
 ---
 
 ## Y-Axis
-The following picture shows the baseframe of the machine where you can see the y-axis very well.  
+The following picture shows the baseframe of the machine where you can see the y-axis rail very well.  
 
 ![Y-axis](../assets/images/axes_K2Plus_Y-axis_web.jpg)  
 
@@ -815,7 +815,7 @@ In the following picture you can see the bottom part of the lead screw which is 
 ---
 
 ### Lead Screws  
-The lead screws are T8x8 type of lead screws, means they are 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts. The total length is 350mm.  
+The lead screws are T8x8 type of lead screws, means they are 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts. The total length is ???mm.  
 At the bottom part of the lead screw there's a 10mm long unthreaded part and at the top this part is ~23mm long, the outer diameter of these shafts is 5mm. Means, you can *not* just get one of those typical lead screws which have the thread going all along the whole length of the rod if you need a replacement!   
 
 The following picture shows the unthreaded part at the bottom which is 10mm long - the part at the top is ~23mm long.  
