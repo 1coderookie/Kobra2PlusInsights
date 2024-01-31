@@ -134,7 +134,7 @@ The bedplate of the Kobra 2 Plus already comes insulated as the following pictur
 ## Magnetic Foil
 
 On top of the aluminum bedplate there's a magnetic foil applied. If you order a spare part heat bed, then you'll most likely only get the aluminum bedplate, but not the magnetic foil. So you'll have to get yourself a magnetic foil as well.  
-If you choose a foil from the aftermarket, make sure to get the correct size. The bedplate is 230x230mm, but actually most of the foils being available on the market seem to be 235x235mm. That's fine though, as you can easily cut off any pieces of foil which are exceeding the dimensions of the bedplate then. Make sure to get yourself a foil which uses 3M glue.   
+If you choose a foil from the aftermarket, make sure to get the correct size. The bedplate is 330x330mm. If you only can find bigger foils that's fine though, as you can easily cut off any pieces of foil which are exceeding the dimensions of the bedplate then. Make sure to get yourself a foil which uses 3M glue.   
 
 The following picture shows a magnetic foil that Anycubic shipped together with a replacement bedplate - the pictures show the parts of a different machine's bed (Kobra Neo), but the foil itself is pretty much the same though (the holes are just shaped slightly different plus there are two additional holes for mounting the z-offset sensor housing).  
 
@@ -339,15 +339,14 @@ So it's very advisable to dismount the bed, take the stock spacers out and check
 Most likely they're not of equal height, which leads to a somewhat warped bed then. If you encounter this problem, I'd suggest to sand them down to the height of the shortest one. If you do so, pay attention to sand them down perpendicular - you don't want to end up with a tilted surface/spacer.  
 You could also try to shim it out of course, but especially if the differences are pretty small, then this can be a real hassle.  
 
-<!---
+---
 
 ### MOD: Longer Spacers  
-If you want to insulate the bedplate, you'd have to use longer spacers to raise the bedplate. Otherwise the insulation would hit the mounting bracket of the Y-axis' motor.  
+If you want to apply an additional layer of insulation to the underside of the bedplate, you'd have to use longer spacers to raise the bedplate. Otherwise the insulation would hit the mounting bracket of the Y-axis' motor.  
 
-I personally used 20mm long aluminum spacers with a 5mm bore as shown in the following picture.  
+I personally used longer aluminum spacers with a 5mm bore (at my Kobra 2 Pro) as shown in the following picture.  
 
-![Stock vs longer spacers](../assets/images/bed_K2Pro_stock-spacer-vs-longer_web.jpg)
--->
+![Stock vs longer spacers](../assets/images/bed_K2Pro_stock-spacer-vs-longer_web.jpg)  
 
 ---
 
@@ -501,9 +500,12 @@ To keep this section 'short', please see the expandable textbox below for the fu
 
 ## Anycubic LeviQ 2.0 - Automatic Bed 'Leveling' Function
 
-The printer comes with an automatic 25 point bed 'leveling' function called "Anycubic LeviQ 2.0".  
-This function measures the distance of the inductive [ABL sensor](printhead.md#abl-sensor) to the PEI plate in a 5x5 grid, therefore at 25 points.  
+The printer comes with an automatic 49 point bed 'leveling' function called "Anycubic LeviQ 2.0".  
+This function measures the distance of the inductive [ABL sensor](printhead.md#abl-sensor) to the PEI plate in a 7x7 grid, therefore at 49 points.  
 The data will then be used to compensate any deviations in the distance of the surface to the nozzle during printing by moving the printhead up and down along the z-axis.  
+
+When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. You can find information about how to do it for your specific model in the section ["ABL Sensor"](printhead.md#abl-sensor).     
+  
 
 !!! warning "Clarification: What ABL Does And What It Does NOT"  
 
@@ -520,11 +522,8 @@ The data will then be used to compensate any deviations in the distance of the s
     So - what can you do to at least get the best results out of the measunring and compensation process? Well - make sure to set up the printer as square and perpendicular as possible, [tram your bed](#tramming-the-bed), [tram your x-axis gantry](axes.md#tramming-the-x-axis-gantry) and [level the ABL sensor in relation to the nozzle](printhead.md#abl-sensor).  
 
  
- 
 
-<!--
-When it comes to executing the ABL function of the printer, it's advisable to initially check if the ABL sensor is leveled correctly to get the best results out of the ABL process. You can find information about how to do it for your specific model in the section ["ABL Sensor"](printhead.md#abl-sensor).     
--->  
+
 
 <!--
 To make the measured values of the ABL come into account later when it comes down to printing, you should add a certain g-code command to the start g-code section of your slicer. Even though this shouldn't be necessary as we have the belonging definement in the firmware (`#define ENABLE_LEVELING_AFTER_G28`), it seems to be advisable to do so.  
