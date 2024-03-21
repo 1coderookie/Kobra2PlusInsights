@@ -62,10 +62,6 @@ The heating coil is applied as a PCB to the underside of the bedplate - as it's 
 Mind the bubbles of the insulation you can see at this pictures (*not* the 'bulge' in the center - that's where the thermistor is located). If you have those bubbles as well, *carefully* poke a small hole in the insulation by using a needle and push out the air. You want the insulation being glued onto the plate with no trapped air in between.  
    
 At the left rear side of the bedplate you'll notice a black plastic cap which sticks out. Be careful to never break it by accident as it acts as a strain relief and protects the wires which are soldered to the contacts of the board at the bottom side.  
-Next to that cap the z-offset sensor and the silicone block for wiping the nozzle before probing the bed's surface are located as shown in the following picture.  
-
-![Z-offset sensor and silicone block](../assets/images/bed_K2Pro_z-sensor_topview_web.jpg)  
-
 The following pictures show the underside view of these parts.  
   
 ![Soldered connections](../assets/images/bed_K2Pro_bedplate-connectors_web.jpg)  
@@ -73,8 +69,13 @@ The following pictures show the underside view of these parts.
 Here you can also see the acceleration sensor, the following picture shows it in a closeup view.  
 
 ![Closeup connector](../assets/images/bed_K2Pro_bedplate-connector-closeup_web.jpg)  
+
+Next to that cap the z-offset sensor and the silicone block for wiping the nozzle before probing the bed's surface are located as shown in the following picture.  
+
+![Z-offset sensor and silicone block](../assets/images/bed_K2Pro_z-sensor_topview_web.jpg)  
   
-When you take a look underneath the bed itself, you'll spot a little foam piece secured by Kapton tape as you can see in the following picture.  
+The thermistor for measuring the bed's temperature is located at the underside, in the center of the bedplate. It's located in a hole in the aluminum plate and it's covered by the insulation of the bed, so you usually can't see it.  
+However, the following picture shows the thermistor.  
   
 ![Bed thermistor](../assets/images/bed_thermistor_web.jpg)
 
@@ -160,7 +161,7 @@ The following picture shows a magnetic foil that Anycubic shipped together with 
     
     Once you're done, wipe from the center of the bedplate to the sides once again while applying a bit of more pressure. Then heat up the bed to about 40-50°C (so that it's still safe for you to touch it without burning yourself) and let it sit for about 5min like that. Then wipe over it once again while applying pressure to make sure the foil is properly attached. Pay special attention to the egdes and long corners and make sure the foil really is attached well there.  
     
-    If you bought a 235x235mm or even bigger foil, cut off the protruding parts by using a scalpel or sharp knife.   
+    If you bought a 350x350mm or even bigger foil, cut off the protruding parts by using a scalpel or sharp knife.   
 
 ---
 
