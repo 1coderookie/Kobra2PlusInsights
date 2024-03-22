@@ -1006,7 +1006,7 @@ I'll list the solutions I'm aware of in the following - if you came across furth
 ---
 
 #### Various Tools For Modifying KobraOS
-The following repository offers various tools for accessing, rooting and modiying the stock firmware.  
+The following repository offers various tools for accessing, rooting and modifying the stock firmware.  
 Please read the according descriptions at the repository about what can be done.  
 
 [Anycubic Kobra 2 Series Tools](https://github.com/ultimateshadsform/Anycubic-Kobra-2-Series-Tools) by [ultimateshadsform](https://github.com/ultimateshadsform)
