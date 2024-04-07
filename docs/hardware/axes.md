@@ -784,13 +784,14 @@ The rear wheel on the left side of the bed gantry triggers the switch when moved
 ---
 
 ## Z-Axis
-The z-axis is driven by two lead screws which are connected to each other with a timingbelt at the very top.  
-Both lead screws are attached and driven by z-axis motors.   
+The z-axis is driven by two lead screws which are connected to each other with a closed loop GT-2 timing belt (6mm width, ???mm length) at the very top.  
+Both lead screws are attached to and driven by a z-axis motor.   
 The following picture shows the upper part where you can see the the top bearing blocks both lead screws rest in, the pulleys and the timing belt which connects both lead screws.  
+*Note: The following picture shows this timing belt of the Kobra 2* ***PRO****, but it's basically the same construction at the Max, just bigger.  
 
 ![Timing belt](../assets/images/axes_K2Pro_timing-belt_web.jpg)
 
-The lead screws have 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and has a length of ~500-505mm(??).  
+The lead screws have 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts and have a length of ~500-505mm.  
 At the bottom part of the lead screw there's a 10mm long unthreaded part and at the top this part is 20mm long, the outer diameter of these shafts is 5mm.  
 
 The rods are mounted to the 5mm shaft of the motor by a rigid coupler at the bottom.   
@@ -849,7 +850,7 @@ In the following picture you can see the bottom part of the lead screw which is 
 ---
 
 ### Lead Screws  
-The lead screws are T8x8 type of lead screws, means they are 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts. The total length is ???mm.  
+The lead screws are T8x8 type of lead screws, means they are 8mm in diameter with 8mm lead ('distance' of one complete rotation), 2mm pitch and 4 starts. The total length is ~500-505mm.  
 At the bottom part of the lead screw there's a 10mm long unthreaded part and at the top this part is ~23mm long, the outer diameter of these shafts is 5mm. Means, you can *not* just get one of those typical lead screws which have the thread going all along the whole length of the rod if you need a replacement!   
 
 The following picture shows the unthreaded part at the bottom which is 10mm long - the part at the top is ~23mm long.  
@@ -1097,6 +1098,7 @@ The following picture shows this type of coupler - for comparing the size, the s
 ### Z-Axis Motor
 The motors of the z-axis are 42-34 Nema 17 stepper motors with a 5mm motor shaft.  
 It seems to be a regular 1.8° stepper, which means the shaft turns 1.8° at each steps, and therefore it's doing 200 steps for one full 360° rotation.  
+Both motors are connected to the same stepper driver at the mainboard, so they're *not* being driven independently.  
 
 The following picture shows both motors at the z-frame in the left and right side of the bed.  
 ![Dual z motors](../assets/images/axes_K2Plus_dual-z-motors_web.jpg)  
