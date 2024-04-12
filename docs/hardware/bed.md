@@ -102,6 +102,7 @@ The bedplate of the Kobra 2 Plus already comes insulated as the following pictur
 
 ![Bedplate underside](../assets/images/bed_K2Plus_underside-full_web.jpg)  
 
+However, since it's only 3mm thick, you could still add a layer to increase the positive effects.  
 
 !!! warning "Mind The Gap!"
 
@@ -110,20 +111,26 @@ The bedplate of the Kobra 2 Plus already comes insulated as the following pictur
 
 ??? example "Adding The Insulation"  
 
-    Before I'll go into the steps about how to apply additional insulation, I have to point out a few things first:  
+    Before I'll go into the steps about how to apply the insulation, I have to point out a few things first:  
     
     - *You'll need longer spacers and screws due to the thickness of the insulation (which is about 9-10mm most of the time)!*  
     - *You'll need to raise the whole bedplate to avoid contact between the insulation and the motor mount at the back of the construction.*  
-    - *If you want to add an additional layer of insulation, I personally would recommend to *not* tear off the original insulation - just apply the additional layer on top of it.*  
-    - *Before attempting to apply the additional insulation, inspect the given insulation: can you spot any bubbles caused by trapped air?  
-       Don't mind the bulge in the center of the bed - that's where the thermistor is located. But as you can see in the picture above, there are additional bubbles. If you have those bubbles as well, *carefully* poke a small hole in the insulation by using a needle and push out the air. You want the insulation being glued onto the plate with no trapped air in between.  
-
-    - For adding the insulation, you need to dismount the bedplate from the gantry by taking out the four screws (remove the PEI coated plate first though). Be careful with the wires when moving the plate. Put the plate onto the insulation (but don't peel off the protective layer of the adhesive yet!), align it and mark the four holes of the screws.  
+        If you use the beforementioned 25mm springs and longer screws, you should be fine as they are longer then the stock spacers anyway.  
+        If you'll use the stock spacers or silicone spacers of about the same size, you can add bolt nuts underneath to raise the bed. However, it's advisable though to get yourself longer spacers then!   
+    - *It's also advisable to have Kapton tape on hand to cover the whole underside of the bedplate with it (before you actually apply the insulation) and to secure the edges and sides of the insulation (after applying the insulation)!*  
+        Make sure that *no bubbles* are trapped between the Kapton tape and the surface of the bed's underside then! And do a proper cleaning of the surface to avoid that the tape will (partially) come off!   
+    
+    - For adding the insulation, you need to dismount the bedplate from the gantry by taking out the four screws (remove the PEI coated plate first tho). Be careful with the wires when moving the plate. Also dismount the acceleration sensor and carefully move it out of the bed's underside you want to insulate. Put the plate onto the insulation (but don't peel off the protective layer of the adhesive yet!), align it and mark the four holes of the screws.  
     - Then place the bed upside down on a flat and clean surface - wipe the surface beforehand tho to make sure that there's no dirt or even metal chips which would press into or stick onto the magnetic surface. Now use IPA or (which I prefer) silicone remover to wipe the underside of the bed where the insulation should be applied to and clean off any dirt or grease from your fingers.  
     - Now lay down the insulation onto the bed like if you would apply it (*but still with the protective layer on the adhesive!*) and adjust the position. Mark the area where the wires are connected to the bed as well and cut away that part of the insulation.  
       ![Cut section](../assets/images/bed_insulation_cutout_web.jpg)  
     - Place the spacers above the premarked holes and cut away the insulation in that area as well, so that the spacers will touch the plate later without any insulation between. I'd recommend to mark the areas that should be cut and then take the insulation away from the bedplate, so that you don't harm the surface when using a sharp knife or so.   
-    - When it comes down to finally apply the insulation, make sure you start at one side and that you avoid *any* bubbles, you want the insulation to stick on the bed equally. If some of the insulation protrudes beyond the plate, cut it off. The following picture shows the applied insulation (at a different bed though). <br> ![Bed insulated](../assets/images/bed_insulated_web.jpg)   
+    - When it comes down to finally apply the insulation, *I personally would suggest to cover the whole surface of the bed with Kapton tape first,* just in case you'd have to tear off the insulation in the future. I also added two layers of Kapton tape especially above the contacts and the little piece of foam of the thermistor in the center of the bed and marked that area roughly at the insulation, just in case I'd have to replace the thermistor in the future.  
+      *Make sure there are no bubbles trapped underneath the Kapton tape though!*    
+      ![Adding Kapton](../assets/images/bed_K2Pro_insulation_kapton-partial_web.jpg) | ![Adding Kapton](../assets/images/bed_K2Pro_insulation_kapton-full_web.jpg)   
+      Note: Looking back, I now would *remove* that piece of foam which covers the thermistor in the middle to make sure the insulation covers the bed without any air trapped in between! Cover that hole of the thermistor with Kapton tape though before you apply the insulation.  
+    - *Pay attention to add a sufficient electronical insulation underneath the area of the accelaration sensor. Since the cover of the bed's insulation is made from aluminum and the pins at the back ofthe accelerometer's PCB aren't protected, you could create a shortcut if they get in touch!* <br> ![Electronic insulation](../assets/images/bed_K2Pro_insulation_accel-sensor_web.jpg)  
+    - Once everything is done and prepared, you can finally apply the insulation. Make sure you start at one side to avoid any bubbles, you want the insulation to stick on the bed equally. If some of the insulation protrudes beyond the plate, cut it off. The following picture shows the applied insulation. <br> ![Bed insulated](../assets/images/bed_K2Pro_insulation_complete_web.jpg)   
     - *I highly recommend to additionally secure the insulation by using some pieces of Kapton tape as well to ensure that the edges and sides of the insulation won't come loose.* Don't skip this step, as the insulation most likely will come off sooner or later at the sides and edges (at least mine did).    
     - Then add the spacers and the screws and mount the bed onto the gantry again. Make sure that the insulation doesn't touch the construction and the motor mount at the back, the bed has to move as free as before. So move the bedplate manually to see if everything is fine and if there's enough clearance between the insulation and the other parts.  
     - If you used adjustable spacers, tram the bed again.  
