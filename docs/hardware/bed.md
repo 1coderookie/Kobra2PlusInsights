@@ -104,7 +104,11 @@ The bedplate of the Kobra 2 Plus already comes insulated as the following pictur
 
 However, since it's only 3mm thick, you could still add a layer to increase the positive effects.  
 
-!!! warning "Mind The Gap!"
+!!! warning "Get Rid Of Trapped Air!"  
+
+    As you can see in the picture above, there are bubbles due to air being trapped between the bedplate and the insulation. Use a needle and *carefully* poke a hole in the insulation (Attention: don't harm the heater coil!). Then smooth out that area by slowly pushing out the trapped air.  
+
+??? warning "Mind The Gap!"
 
     When adding insulation, it's extremely important to keep an eye on the clearing underneath the bed!  
     You don't want to risk the insulation hitting the bracket of the y-axis motor mount, so pay attention to that!  
