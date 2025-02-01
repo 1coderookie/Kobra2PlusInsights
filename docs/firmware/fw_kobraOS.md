@@ -1037,6 +1037,11 @@ Tools and code which is needed to build a custom webserver: [Anycubic Kobra 2 Cu
 
 Webinterface which uses the interface of the KobraOS and a custom webserver: [Kobra Unleashed](https://github.com/anjomro/kobra-unleashed) by [anjomro](https://github.com/anjomro)
     
+---
+
+#### Bedmesh  
+
+For being able to transfer the data of the bedmesh to a graphical output, one has to get access to the according data. User [zhnecssd](https://github.com/zhnecssd) describes his way of getting the data and generate a bedmesh view from it [here](https://github.com/zhnecssd/3D-Printer-Bed-Leveling-Mesh-Visualizer).  
 
 ---
 
